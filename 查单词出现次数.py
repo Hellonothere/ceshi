@@ -18,4 +18,4 @@ list2.sort(key=lambda x: (-x[1],x[0]))
 with open("out.txt","w") as f:
     for x in list2:
         f.write("{} {}\n".format(x[0],x[1]))
-print("hello")
+print
